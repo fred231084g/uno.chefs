@@ -1,3 +1,0 @@
-steps:
-  - pwsh: dotnet build $(build.sourcesdirectory)/build/workflow/build.csproj /r /t:BuildVersion /bl:$(build.artifactstagingdirectory)/logs/set-version-build.binlog 
-    displayName: Update app versions
